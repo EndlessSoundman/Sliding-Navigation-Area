@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #A9A9A9;
+    background-color: darkslategrey;
+    overflow: hidden;
 }
 
 
@@ -15,6 +16,8 @@ body {
     'wght' 400,
     'GRAD' 0,
     'opsz' 24;
+    cursor: pointer;
+
 }
 
 
@@ -26,6 +29,7 @@ body {
     top: 10px;
     right: 10px;
     z-index: 2;  
+    font-size: 40px;
 }
 
 
@@ -49,6 +53,7 @@ nav {
     height: 100vh;
     z-index: 1;  
     transition: right 0.5s;  
+    background-color: blueviolet;
 }
 
 
@@ -59,4 +64,5 @@ nav {
 
 .shownav {
     right: 0;
+    
 }
